@@ -67,6 +67,10 @@ header {
 
 .button:hover {
 	background-color: #E7FFFF;
+	box-shadow: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 /* ------------------- PORTFOLIO ------------------- */
@@ -186,6 +190,11 @@ footer {
 
 .footer-btn:hover {
 	text-decoration: underline;
+	background-color: #fff;
+	color: #3a7dfd;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 .footer-write {
